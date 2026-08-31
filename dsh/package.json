@@ -18,6 +18,7 @@
   "scripts": {
     "build": "node ./scripts/sync-skills.mjs",
     "verify": "node ./scripts/verify.mjs",
+    "test": "npm run build && npm run verify && node ../tests/dsh/bundle-entry.test.js",
     "prepack": "npm run build && npm run verify"
   },
   "keywords": [
