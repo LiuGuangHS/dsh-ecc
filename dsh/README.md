@@ -24,9 +24,18 @@ dsh plugin --profile web add "$PWD"
 
 ## Scope
 
-The first release provides the canonical ECC Skill surface from `skills/`.
-Commands, agents, rules, and hooks require DSH-specific lifecycle and permission
-adapters and are intentionally not presented as supported yet.
+The `0.1.x` releases provide the canonical ECC Skill surface from `skills/`.
+Commands, agents, rules, hooks and MCP configurations are being adapted to their
+native DSH destinations instead of being copied as Claude Code files.
+
+The implementation contract is documented in
+[`docs/DSH-ECC-PORTING-SPEC.md`](docs/DSH-ECC-PORTING-SPEC.md). The live execution
+plan and per-surface mapping are tracked in
+[`docs/ECC-DSH-MAPPING.md`](docs/ECC-DSH-MAPPING.md).
+
+A capability is usable only after it has a DSH registration point, explicit
+permissions, lifecycle cleanup, tests and a documented invocation. A copied source
+file alone is not considered a port.
 
 This is an independent community adaptation of
 [affaan-m/ECC](https://github.com/affaan-m/ECC), distributed under its MIT
