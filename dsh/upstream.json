@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "source": "skills",
+  "skillCount": 286,
+  "portingSpec": "docs/DSH-ECC-PORTING-SPEC.md",
+  "mappingMatrix": "docs/ECC-DSH-MAPPING.md"
+}

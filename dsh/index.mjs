@@ -1,6 +1,6 @@
-import { readdir, readFile } from 'node:fs/promises'
+import { readdir, readFile, realpath } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
-import { dirname, join } from 'node:path'
+import { dirname, join, relative, resolve } from 'node:path'
 
 const name = 'dsh-ecc'
 const inject = ['skills']
@@ -20,8 +20,8 @@ function parseFrontmatter(text) {
     if (/^[ \t]/.test(line) && currentKey) {
       const value = line.trim()
       if (value) metadata[currentKey] = folded
-        ? `${metadata[currentKey]} ${value}`
-        : `${metadata[currentKey]}\n${value}`
+        ? [metadata[currentKey], value].filter(Boolean).join(' ')
+        : [metadata[currentKey], value].filter(Boolean).join('\n')
       continue
     }
     const match = /^([A-Za-z][\w-]*):\s*(.*)$/.exec(line)
@@ -46,9 +46,14 @@ function parseFrontmatter(text) {
   }
 }
 
-async function parseSkill(skillPath, signal) {
+async function parseSkill(skillPath, signal, allowedRoot) {
   let text
   try {
+    if (allowedRoot) {
+      const [rootPath, filePath] = await Promise.all([realpath(allowedRoot), realpath(skillPath)])
+      const escaped = relative(rootPath, filePath)
+      if (escaped.startsWith('..') || resolve(rootPath, escaped) !== filePath) return undefined
+    }
     text = await readFile(skillPath, 'utf8')
   } catch {
     return undefined
@@ -72,7 +77,7 @@ async function discover(skillsRoot, signal) {
     if (!entry.isDirectory()) continue
     const directory = join(skillsRoot, entry.name)
     const skillPath = join(directory, 'SKILL.md')
-    const parsed = await parseSkill(skillPath, signal)
+    const parsed = await parseSkill(skillPath, signal, skillsRoot)
     if (!parsed) continue
     result.push({
       name: parsed.metadata.name,
@@ -93,15 +98,20 @@ async function discover(skillsRoot, signal) {
 }
 
 function apply(ctx) {
-  const skillsRoot = join(dirname(fileURLToPath(import.meta.url)), 'skills')
-  ctx.skills.registerProvider(() => ({
+  const skillsRoot = resolve(dirname(fileURLToPath(import.meta.url)), 'skills')
+  return ctx.skills.registerProvider(() => ({
     name,
     async list(options = {}) {
       return discover(skillsRoot, options.signal)
     },
     async get(candidate, options = {}) {
-      const parsed = await parseSkill(candidate.path, options.signal)
-      if (!parsed) return undefined
+      if (!candidate || typeof candidate.path !== 'string' || typeof candidate.locator !== 'string') return undefined
+      const skillPath = resolve(candidate.path)
+      const locator = resolve(candidate.locator)
+      if (relative(skillsRoot, skillPath).startsWith('..') || relative(skillsRoot, locator).startsWith('..')) return undefined
+      if (skillPath !== join(locator, 'SKILL.md')) return undefined
+      const parsed = await parseSkill(skillPath, options.signal, skillsRoot)
+      if (!parsed || parsed.metadata.name !== candidate.name) return undefined
       return {
         name: parsed.metadata.name,
         description: parsed.metadata.description ?? '',
@@ -111,8 +121,8 @@ function apply(ctx) {
           : { modelInvocable: true, userInvocable: true },
         source,
         provider: name,
-        resourceBase: { kind: 'directory', path: candidate.locator },
-        path: candidate.path,
+        resourceBase: { kind: 'directory', path: locator },
+        path: skillPath,
         metadata: parsed.metadata,
         content: parsed.body
       }

@@ -10,7 +10,15 @@ const staging = join(dshRoot, '.skills-staging')
 
 await rm(staging, { recursive: true, force: true })
 try {
-  await cp(source, staging, { recursive: true, force: false, errorOnExist: true })
+  await cp(source, staging, {
+    recursive: true,
+    force: false,
+    errorOnExist: true,
+    filter(path) {
+      const name = path.split(/[\\/]/).pop()
+      return name !== '__pycache__' && !name.endsWith('.pyc') && !name.endsWith('.pyo')
+    }
+  })
   await rm(target, { recursive: true, force: true })
   await cp(staging, target, { recursive: true })
 } finally {

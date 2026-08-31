@@ -13,12 +13,14 @@
     "cordis.patch.yml",
     "skills",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "docs",
+    "upstream.json"
   ],
   "scripts": {
     "build": "node ./scripts/sync-skills.mjs",
     "verify": "node ./scripts/verify.mjs",
-    "test": "npm run build && npm run verify && node ../tests/dsh/bundle-entry.test.js",
+    "test": "npm run build && npm run verify && node ../tests/dsh/bundle-entry.test.js && node ../tests/dsh/provider.test.mjs",
     "prepack": "npm run build && npm run verify"
   },
   "keywords": [

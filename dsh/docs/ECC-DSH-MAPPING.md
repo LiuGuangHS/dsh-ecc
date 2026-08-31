@@ -22,7 +22,7 @@ The current ECC source inventory is:
 
 | Source surface | Count | DSH destination | Current baseline |
 | --- | ---: | --- | --- |
-| Skills | 286 | Host `skills` provider | Verified catalog and on-demand loading |
+| Skills | 286 | Host `skills` provider | Verified discovery, on-demand loading, resource paths, lifecycle disposal and candidate path confinement |
 | Commands | 94 | DSH commands, tools or workflow entrypoints | Not yet adapted |
 | Agents | 68 | DSH agent presets or subagent profiles | Not yet adapted |
 | Rules | 122 | System prompt sections, scoped rules, Skills or guards | Not yet adapted |

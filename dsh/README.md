@@ -37,6 +37,10 @@ A capability is usable only after it has a DSH registration point, explicit
 permissions, lifecycle cleanup, tests and a documented invocation. A copied source
 file alone is not considered a port.
 
+The package includes [`upstream.json`](upstream.json), which records the canonical
+ECC source, exported surface count and the adaptation documents used for this
+release. Generated Skill content excludes Python caches and temporary build files.
+
 This is an independent community adaptation of
 [affaan-m/ECC](https://github.com/affaan-m/ECC), distributed under its MIT
 license. It is not affiliated with or endorsed by the original ECC authors or

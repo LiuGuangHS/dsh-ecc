@@ -28,6 +28,8 @@ if (runTest('declares a DSH bundle entry', () => {
   assert.strictEqual(packageJson.dsh.bundle.patch, './cordis.patch.yml');
   assert.strictEqual(packageJson.main, './index.mjs');
   assert.ok(packageJson.files.includes('skills'));
+  assert.ok(packageJson.files.includes('docs'));
+  assert.ok(packageJson.files.includes('upstream.json'));
 })) passed += 1; else failed += 1;
 
 if (runTest('bundle entry and canonical source skills exist', () => {
