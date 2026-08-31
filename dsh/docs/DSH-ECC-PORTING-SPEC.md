@@ -78,7 +78,7 @@ A feature is `verified` only after its required tier is recorded in the matrix.
 - Use a minor version only when a new public DSH capability contract requires a meaningful compatibility boundary.
 - Use a major version only for intentional breaking changes.
 - Every release runs `npm test`, package-content checks and the applicable Harness integration suite.
-- Every release records the ECC upstream commit and generated capability counts.
+- Every release records the ECC upstream commit when the exported source has been explicitly reviewed; otherwise the manifest must say it is unpinned and release documentation must not claim an exact upstream correspondence.
 - Publishing is performed by the `dsh-vX.Y.Z` GitHub tag through npm Trusted Publishing.
 - A tag version must equal `dsh/package.json` version. No manual version override is allowed in CI.
 

@@ -1,7 +1,1158 @@
 {
+  "schemaVersion": 1,
   "repository": "https://github.com/affaan-m/ECC",
   "source": "skills",
-  "skillCount": 286,
-  "portingSpec": "docs/DSH-ECC-PORTING-SPEC.md",
-  "mappingMatrix": "docs/ECC-DSH-MAPPING.md"
+  "upstreamCommit": null,
+  "snapshot": {
+    "algorithm": "sha256",
+    "skillCount": 286,
+    "digest": "81e9a55cc28cd1036d3d8c85760e6c808865aa2146c76a44893a3e55202a539e",
+    "skills": [
+      {
+        "name": "accessibility",
+        "hash": "d8578fe750e7321658450386e2112a46ea1aedca0235fbf97f3db2457e599b3a"
+      },
+      {
+        "name": "agent-architecture-audit",
+        "hash": "64f57e232c3533877403703bc95b3c75df9de23f657899a306f13c703009ff57"
+      },
+      {
+        "name": "agent-eval",
+        "hash": "57fa683e356b6f5612bc6d7dc101ae39c126e6edf9a48f4ec53afea3e80d7e5d"
+      },
+      {
+        "name": "agent-harness-construction",
+        "hash": "e7fb390a6663b46ea5d3c2876753a5ce32ba3bad1889686b21a42894caa1742d"
+      },
+      {
+        "name": "agent-introspection-debugging",
+        "hash": "0cdbfe3c822ff50d21df8cd0e20c72407a6f5658089edc0e96e79a03927cb956"
+      },
+      {
+        "name": "agent-payment-x402",
+        "hash": "78ac50508665d894f1cbf02fe7d121c6ffc5c72cc66d68174db77ffdb30b6b89"
+      },
+      {
+        "name": "agent-self-evaluation",
+        "hash": "96bb21eb37760f596789f84ec0a5dad4ef92fc2255e35cd7b88dc4234062b8c1"
+      },
+      {
+        "name": "agent-sort",
+        "hash": "5847fc20cf0fd0d00c0c2dbacca03472c5a43af429978cf874dd41ecc144dc53"
+      },
+      {
+        "name": "agentic-engineering",
+        "hash": "41c32c20ec97469341f5d83d8beb15f03d1b6f1c40fb1bdf534c50cd9a38cb6f"
+      },
+      {
+        "name": "agentic-os",
+        "hash": "e1d1207353652456ac84a821e5522def1d108677318630af4fd7ac16735b5c04"
+      },
+      {
+        "name": "ai-first-engineering",
+        "hash": "114913bdcb6127392df56d96f7f1312f36c74d69c278dece6d377b9bd92123a5"
+      },
+      {
+        "name": "ai-regression-testing",
+        "hash": "83f2f5c4083af5762dd658f742d4a390eb3a6f969d835f69e8f47efba296c127"
+      },
+      {
+        "name": "android-clean-architecture",
+        "hash": "20cbb9d7778462c549ccd32c830c0004fc7b92cfa009db99900d773373115f12"
+      },
+      {
+        "name": "angular-developer",
+        "hash": "28ee37a8cf63add48fffc7c8676c6368aee35f3042525e79769b5a3d4e01aed1"
+      },
+      {
+        "name": "api-connector-builder",
+        "hash": "00a0d01e234f213d343f0040bbebd56e042978768ce5bb7117776a75bd9547e8"
+      },
+      {
+        "name": "api-design",
+        "hash": "bfae53167acc91caff0ff9ab73a80ee3fd92caccdfa445c88302c3bf95255156"
+      },
+      {
+        "name": "architecture-decision-records",
+        "hash": "525e51b4ed98222cd49ea7d2e42b51a010ecab391b25022a86164258c14b8bb0"
+      },
+      {
+        "name": "article-writing",
+        "hash": "4aa61709450a2148ef4036896d870da748e93ad68528bb7679b74f3597ffb021"
+      },
+      {
+        "name": "automation-audit-ops",
+        "hash": "71aa878fd06ef02f0c8ca50eaaee0ec45995981d769d8701806b9b83ca8a2f2c"
+      },
+      {
+        "name": "autonomous-agent-harness",
+        "hash": "4de9a47cdeb0ad2c3838878f13c676db4fbe4a68b4cdda54a6851b28e6facdaa"
+      },
+      {
+        "name": "autonomous-loops",
+        "hash": "c2db797295500b9c2b31d9dd2451ef28727346c739b5d1d3366f0f9ea2e823dc"
+      },
+      {
+        "name": "backend-patterns",
+        "hash": "9b983d0297a983110fdfda8dce55d19b750ca3e53ef155d75a3eff740d3874b8"
+      },
+      {
+        "name": "benchmark",
+        "hash": "3b4d32317cb906904ab192b6e50389e34bad88887cb085c8ef1a345c382609dc"
+      },
+      {
+        "name": "benchmark-methodology",
+        "hash": "f2cba14bb87ff43f80c2eaec6311eee7ead4d8b89949864442362eb368acbbac"
+      },
+      {
+        "name": "benchmark-optimization-loop",
+        "hash": "51a766eba273a30c24b8f3851e115e72335f3e3851a82235b9f9c1fedfb423a4"
+      },
+      {
+        "name": "blender-motion-state-inspection",
+        "hash": "97b8aee8822a8603e2fc930f66b4bd18507c11ca756accd1419a2a3526196f5c"
+      },
+      {
+        "name": "blueprint",
+        "hash": "bc7118400659cfffbfd238c529baf597a9a726bd8dd6bb956d29fe263037d502"
+      },
+      {
+        "name": "brand-discovery",
+        "hash": "0c6ef1b72b0fe635d1681abf3857ec34214fd6580fad7708a96a8f4abc096ef5"
+      },
+      {
+        "name": "brand-voice",
+        "hash": "57c7f8440b7bd4c91c0d325640b5c6fb7a3dc7fc05595946c7bc705761a987a7"
+      },
+      {
+        "name": "browser-qa",
+        "hash": "c501257d2c9ca711342b56d7adfb04897f17c6946dc6cdb88a5c75c87e4aa951"
+      },
+      {
+        "name": "bun-runtime",
+        "hash": "8015a977827ddd8536e89c4693a575b8deb5b04073b8a483c320c5419abc35da"
+      },
+      {
+        "name": "canary-watch",
+        "hash": "d2cb536f8ccb201266e094542cb20af8a4d6474feb5b16116cfb4497c2b8149f"
+      },
+      {
+        "name": "carrier-relationship-management",
+        "hash": "af44a99f4d5f8fa616cf17e4f7a2f68403c30bf9cf6525e4c149d55e532b3c14"
+      },
+      {
+        "name": "cisco-ios-patterns",
+        "hash": "85b6a97574cc236d4a9336b1c74b42aaf4386338417e787cbed0c88677bf1179"
+      },
+      {
+        "name": "ck",
+        "hash": "cce8ed0d543fe932b469f6a191d9e5fe912477bea1b94f68e1a7f7cfc66fd7c3"
+      },
+      {
+        "name": "claude-devfleet",
+        "hash": "5fe6efbb5663699ba8e348b2a77fbf7c396ed1903bb95fa0c05c1174f81fabfc"
+      },
+      {
+        "name": "click-path-audit",
+        "hash": "662fc5d02483bcd8ff799d6d3109a38da673182341cfc14445e9076fcd920162"
+      },
+      {
+        "name": "clickhouse-io",
+        "hash": "9f0f2b632f3feb1bd4ca7bae119fe05454668ab763b7d3c3d304f8740b8fd415"
+      },
+      {
+        "name": "code-tour",
+        "hash": "416c7eb9229554a1ef113bbb873ff0b260a2ad9ae6e6075a75c375955d3fcf6f"
+      },
+      {
+        "name": "codebase-onboarding",
+        "hash": "ef88873a4b0d0fe155c0a196ffecd5c7b5e28edd00fbbdb5c1fd2ca8fd0eb6f0"
+      },
+      {
+        "name": "codehealth-mcp",
+        "hash": "c5943c4c353b02dcd87b751de15bb087caae2f11c36e84a74e181fe2eadee394"
+      },
+      {
+        "name": "coding-standards",
+        "hash": "e80544c3d1eac5b14f22022146bd91a6b0ecc30e099cf5181894853aeb81dee1"
+      },
+      {
+        "name": "competitive-platform-analysis",
+        "hash": "060f50513003731e9c0e7f78e6a6a9b8cb178a74a2ec2a6ca75cdae804f0d564"
+      },
+      {
+        "name": "competitive-report-structure",
+        "hash": "fe3ad1b5b6caa4709b2a75e22772771946f36c9592c281012e5d2df087412800"
+      },
+      {
+        "name": "compose-multiplatform-patterns",
+        "hash": "37a50a5eb0a717eebac646360dbd8828f626236ec04d98d8c4a6b191a5efb0d0"
+      },
+      {
+        "name": "config-gc",
+        "hash": "e8ade5c8d48728db6c1137e4392308b6d56290a19d4f78d365122d7ab05276a1"
+      },
+      {
+        "name": "configure-ecc",
+        "hash": "a01e64075c0c68206f2e8b45fd131a32dfc425d24494e3c8e4db9a3ab34e4c19"
+      },
+      {
+        "name": "connections-optimizer",
+        "hash": "499c7e7e361ec17afdad57b725b4d105efb21f707b5724115f71152fe1755c67"
+      },
+      {
+        "name": "content-engine",
+        "hash": "a1ccc0ecfe30ae53db26a73159a80ecad8c63a6a96c461a297789d889bf9ad2c"
+      },
+      {
+        "name": "content-hash-cache-pattern",
+        "hash": "c0242ee2fcb5c096d0625cb6957481fce2266e92985036795f5b5c13c329d802"
+      },
+      {
+        "name": "context-budget",
+        "hash": "920c5edde48e495b267fb0d42d8411c8b75ce1d8ab76e793b2eb6d23da01b0f1"
+      },
+      {
+        "name": "continuous-agent-loop",
+        "hash": "f228cd383a9063b3a0116c5aea02565e859992f63fae5e799adf9c9e44e2454d"
+      },
+      {
+        "name": "continuous-learning",
+        "hash": "d494867b456999cad53c51c89fa2cf8da101f76ea875286987f52e5d45f72221"
+      },
+      {
+        "name": "continuous-learning-v2",
+        "hash": "ddad12451a0d582c6ef1b197b7be193bef613cbc74eba4117fcb74fc7a4ecd00"
+      },
+      {
+        "name": "contract-first",
+        "hash": "dc23ee49437e4d914ea9a9e37eec0dfe59dc16b11fcbc3a6e5c72f25dbd3cc5c"
+      },
+      {
+        "name": "cost-aware-llm-pipeline",
+        "hash": "2d6c19c2d21a473db8720c4f723f17d265eeec48f84614f0169be2df2fbe28ff"
+      },
+      {
+        "name": "cost-tracking",
+        "hash": "486b8289ec3f481e75c477f9e209ab4d008c9fe05dde7c1d0b7813010c3463ba"
+      },
+      {
+        "name": "council",
+        "hash": "2104d002d301a061a16d21ea2e00292f80b66b20c9883a33525a7de404153502"
+      },
+      {
+        "name": "council-multi-model",
+        "hash": "3c67816efdab97c89f8433b8a88d720ca736871467f7d6d1ff344fee59f18ce5"
+      },
+      {
+        "name": "cpp-coding-standards",
+        "hash": "f870b47d3493b0ad0b6e3808a679ac3c429b60f03193af6c9dc0e0d9e6981436"
+      },
+      {
+        "name": "cpp-testing",
+        "hash": "a92fb5da9b7e3cd1b4dee185b3eb9d0a55352af6396bf996d2eef72d683784df"
+      },
+      {
+        "name": "crosspost",
+        "hash": "03bd2ef6e08191cd336e9b8e7a55c29040e7a3225defdaeab1b51d983565661f"
+      },
+      {
+        "name": "csharp-testing",
+        "hash": "ee93aae975fa9d44bebc33be010b24435d38177e77395c697048622d9be68ad1"
+      },
+      {
+        "name": "customer-billing-ops",
+        "hash": "4214d79be7d1bcb62587cf6364e96ed3b70b875ec41871ac632e827ef96b370e"
+      },
+      {
+        "name": "customs-trade-compliance",
+        "hash": "dafcf2ece4e85fcffd345d286a6c0b06fb85ad02ed3c18b3b773656c2ef838ab"
+      },
+      {
+        "name": "dart-flutter-patterns",
+        "hash": "d0a5a1881005ae78f1bca3d73c194057302c653efedb24332a27d55f6c85112e"
+      },
+      {
+        "name": "dashboard-builder",
+        "hash": "6823d9984c060597a312b867c317e0969e1cb0a2dec19730ce944fe789f41d38"
+      },
+      {
+        "name": "data-scraper-agent",
+        "hash": "662e884d58f4089bd8e090ef8d32042b85a5d9b4715906a89072002704451c0a"
+      },
+      {
+        "name": "data-throughput-accelerator",
+        "hash": "ed164d18536a456f71b876a84c54a94a5fc0a0f6aca25299c1c4a2b8f5476449"
+      },
+      {
+        "name": "database-migrations",
+        "hash": "ad7f2f04ca03e592a16e2a539d8c6e90bf4e08892408820ce99a53e9d07775de"
+      },
+      {
+        "name": "deep-research",
+        "hash": "72e184f5d0f31ca4d45286753409d8c8431b025e8ac3800dcc9f32d9e930f58a"
+      },
+      {
+        "name": "defi-amm-security",
+        "hash": "06f662a81b1faebb9930118302d88d649dbc5bcbf7dfe87c3780ddc72f2d6516"
+      },
+      {
+        "name": "delivery-gate",
+        "hash": "147a971c26b7bf4f9fbc3e1f624ec7c888eb8d74911d8ffbbe0418d9aaaa9767"
+      },
+      {
+        "name": "deployment-patterns",
+        "hash": "b864abd1954570c4a469b7e1deb897e57858d25db2fd98d035ff7bca4a15b9b6"
+      },
+      {
+        "name": "design-system",
+        "hash": "baa6057bec07334f531789d07fbdd656afd725c0540992bd04db7589cac36d26"
+      },
+      {
+        "name": "dev-team",
+        "hash": "727b093c8f8284923e54619b9193e5dee9e9ae0ea87b5fb65e1e01e0206fe621"
+      },
+      {
+        "name": "django-celery",
+        "hash": "1f9189ece910eb90a5d2cd520a9a6238ccb89a3e48629ac1ad9b55ec3eb21f88"
+      },
+      {
+        "name": "django-patterns",
+        "hash": "14abe2b635054dff872c07d4993057e614b48ac718c0431f1299931be7d69516"
+      },
+      {
+        "name": "django-security",
+        "hash": "e043c9d300695aea5a9bb4c72a6f47e47ba1f2c7ddc1e82b8191acd0ad70c54a"
+      },
+      {
+        "name": "django-tdd",
+        "hash": "20bd5378fb9b76b396916daa8781dd45eef6336e5d4b3a46edb0c3e4eefaf074"
+      },
+      {
+        "name": "django-verification",
+        "hash": "cb1b6c5938c8c41dffb1f7bb752e307df6ced2577af2fc40786bde4c53799cea"
+      },
+      {
+        "name": "dmux-workflows",
+        "hash": "6e4028d61a556d58fa2cdc6162d6837c082974a7161b2d703967bec472308c56"
+      },
+      {
+        "name": "docker-patterns",
+        "hash": "2a880cf2f6401874151daa9bcc0eacd10cf79f5f48b97f98e93a877a8f3fd12b"
+      },
+      {
+        "name": "documentation-lookup",
+        "hash": "81ad2b5b4acbe02259f4b6cbfd9111d81d5cfe51025051b6048959c45f6516c1"
+      },
+      {
+        "name": "dotnet-patterns",
+        "hash": "61bc21a6c6d6d1230d90f0bbebca55101b1b63de68ece8574152cbad152cef07"
+      },
+      {
+        "name": "dynamic-workflow-mode",
+        "hash": "bdf7902e4e213c6f2e7bdc417757004d118e8e36267239b707670e2875ebf7bf"
+      },
+      {
+        "name": "e2e-testing",
+        "hash": "b0e00e7e17cb259101139900816c5528aed18dd10bcf5f9cb42cfc35baf8a755"
+      },
+      {
+        "name": "ecc-guide",
+        "hash": "b6e30828406e562ef65d323f1366629239313f076a7a53ba7e8dbaec0e96b203"
+      },
+      {
+        "name": "ecc-recipes",
+        "hash": "5184f7e0655dccbf769b52df9c8f7a587e9c2d6b13dcb33aaafefae5fa542137"
+      },
+      {
+        "name": "ecc-tools-cost-audit",
+        "hash": "d5c4c7925166703eb5fca83c0f1dcdeffb9c5808dc3cc08c337136f512fddbac"
+      },
+      {
+        "name": "email-ops",
+        "hash": "188b226ec0dfd4304d6c9b60498b5f0dc2b3c97b14e159e5bde5db323ad45721"
+      },
+      {
+        "name": "energy-procurement",
+        "hash": "adb80378247afb4d66055df84eb736a3fc7a233835fe24bcea26fcd0f5985b10"
+      },
+      {
+        "name": "enterprise-agent-ops",
+        "hash": "ad6fa3fc7cc96b6e8d949880252b1d74d700b90286509318a2952f51b784e364"
+      },
+      {
+        "name": "error-handling",
+        "hash": "e8eec6756c950b570486493e64e3bf14c12baf6bf0858bf3928097fe2bfeaf79"
+      },
+      {
+        "name": "eval-harness",
+        "hash": "9d3afbeca1479975c2575daa7467ca3666e7627fcebe02ea050f2db93917c4fd"
+      },
+      {
+        "name": "evm-token-decimals",
+        "hash": "4e3fd13794f55a2a424cabdfe90935effb35d37155fda3fcacd27cfe20102838"
+      },
+      {
+        "name": "exa-search",
+        "hash": "ebc8e7ab299a6649f575e218f0c25f4d869017b8ad4b5f7725cedceaf82700e5"
+      },
+      {
+        "name": "fal-ai-media",
+        "hash": "84df7b48ef1dd67a6dff5bb7e00059ee12e7f3b6b02c25e143ecd7c984342143"
+      },
+      {
+        "name": "fastapi-patterns",
+        "hash": "f54c2bf5a61eeda47c939da265b1431d609c231611e71b688b0b734a064b18f3"
+      },
+      {
+        "name": "finance-billing-ops",
+        "hash": "823a1b8f75495022227bb9af4537eb5c0b1c62793d68b74c6bd1af14eea79786"
+      },
+      {
+        "name": "flox-environments",
+        "hash": "d15e0af4d6f57ea085482f163d0d1658279301202b161087e9e6f66e7f4b91c9"
+      },
+      {
+        "name": "flutter-dart-code-review",
+        "hash": "5ceac13c9b99c97340f9a47c081737aceee1f803ed9045b7fbc980243b01db03"
+      },
+      {
+        "name": "foundation-models-on-device",
+        "hash": "4f239588e43f7ff0d6415cdcd2c85528a854cdd712986c00c690c6d3cb09491e"
+      },
+      {
+        "name": "frontend-a11y",
+        "hash": "62afdfd4e616ed21bf9037d47f771f3504d21838c898b9e9de8ac0da9b0bf3f7"
+      },
+      {
+        "name": "frontend-design-direction",
+        "hash": "fa254de821f708e5791c4c80d30309ac7da89c2888301e967becb3b21ac73331"
+      },
+      {
+        "name": "frontend-patterns",
+        "hash": "a5b971eb9e74cd763c7e3308bfd888e0d9cf69f8b88477659889d77182479740"
+      },
+      {
+        "name": "frontend-slides",
+        "hash": "9d58ad7d4555a9d6ea1944a5084fd0428ee44276ac13ee8df02c1c4e63925291"
+      },
+      {
+        "name": "fsharp-testing",
+        "hash": "d89f8cb5235f7896b014aae4aa94026bd1a38bc6add956d3fc7ccf2963f2adb7"
+      },
+      {
+        "name": "gan-style-harness",
+        "hash": "d91da8ca4a77a797d9ab78bb748aeb16567d75a1b109c894dc07d8815aa19dde"
+      },
+      {
+        "name": "gateguard",
+        "hash": "1a9f7d718c3986bf424ab13f53b4aaf75607b3e9e4d229a478b4f88489edf2ae"
+      },
+      {
+        "name": "generating-python-installer",
+        "hash": "47e73ef601d900be3b5ccb5d1a1ba2371d3e46c67b5243c1810e51cd2d8f62f3"
+      },
+      {
+        "name": "git-workflow",
+        "hash": "d34cfc7114b4479cac2b802f2463c39312cbab4a509313128cb83ac12a1b1eb6"
+      },
+      {
+        "name": "github-ops",
+        "hash": "887d1eda5f29a8f57d875c054b410db358f7460100bc36385ab3e5fda15aecd1"
+      },
+      {
+        "name": "golang-patterns",
+        "hash": "d643e354683167727cfeb76934855db988468cd15b3ca01db9a32db43902edf7"
+      },
+      {
+        "name": "golang-testing",
+        "hash": "e3399562c58590dfcbd09bfcbf8f401120a2ded0418eb33bbfca6c697ac485ad"
+      },
+      {
+        "name": "google-workspace-ops",
+        "hash": "93ab16b44764e3c00472c7dfb0b58cf59a3c7493ac99ab93fcabf280f164b6a1"
+      },
+      {
+        "name": "growth-log",
+        "hash": "8f90db7c9e84a570f68480a32075026fd98dc4c0dbc7ead0af8357e756274cee"
+      },
+      {
+        "name": "healthcare-cdss-patterns",
+        "hash": "439875d2fff3bbf14e0b46b7310b4c815c2596e54a6cafaafb4b2b93b4865626"
+      },
+      {
+        "name": "healthcare-emr-patterns",
+        "hash": "117e1861c5313f1874c82791c73798d28e9985cac8964a95d73bed915a8aff39"
+      },
+      {
+        "name": "healthcare-eval-harness",
+        "hash": "0c74bb0309d4fb7e3bf04b0f779909156520c73bd6162bd405f7232af19c0a68"
+      },
+      {
+        "name": "healthcare-phi-compliance",
+        "hash": "18c698c348e1affe90ccdd4dca56b74e6d43a83a8334df65b7da916d80615583"
+      },
+      {
+        "name": "hermes-imports",
+        "hash": "4e425b32c9830c936f845b3f63352f6f199d869eb27eef484ce28ddc8ce4f3b4"
+      },
+      {
+        "name": "hexagonal-architecture",
+        "hash": "1579f70e4cd5a2dde39d29a2055d18b39f06b063a308d3b43a498900c99495b7"
+      },
+      {
+        "name": "hipaa-compliance",
+        "hash": "4bc1f29a3be7986f89bdd7b5ec3894451e67c687a558b683cab62bd8d1fd2264"
+      },
+      {
+        "name": "homelab-network-readiness",
+        "hash": "056835b13ab04b672bd8e6c19376b58afb2893b5411428c1588fd07b19571c9d"
+      },
+      {
+        "name": "homelab-network-setup",
+        "hash": "8104e87516857c7f773da9aba0dd13b61c3e490913adb4555d036614a9a937be"
+      },
+      {
+        "name": "homelab-pihole-dns",
+        "hash": "23a801545a4839c4fc04dc287e1122cc3913016a116b2cb5c7720e193edfa6c2"
+      },
+      {
+        "name": "homelab-vlan-segmentation",
+        "hash": "a6e5d6574566881d31e949cc0fad927e1e547d2ebe6f11d1f94f2890ed6ddd5e"
+      },
+      {
+        "name": "homelab-wireguard-vpn",
+        "hash": "38df424e399549d3ba42d6f50c77554d9a88a46b3bac4dd1436158874535c13c"
+      },
+      {
+        "name": "hookify-rules",
+        "hash": "b604608e30ac2b8f4f62dea3023efe2d3247b41a38c4156a6b6297173f2405a8"
+      },
+      {
+        "name": "inherit-legacy-style",
+        "hash": "14e7b20424f123b594d3ee3d6ac3e722b21e5a6816fe90bacf8a23e6c3af5b6d"
+      },
+      {
+        "name": "intent-driven-development",
+        "hash": "e34045f7b3bf6a6fbd364f85c7bc81d8208e18bb929ceff80bbc987f78aadea8"
+      },
+      {
+        "name": "inventory-demand-planning",
+        "hash": "27f2f103cf872ab272ac0137f2e3fd89e6dfec3681f9a685d4ffbae12dc0b878"
+      },
+      {
+        "name": "investor-materials",
+        "hash": "e2c8d64412e2af9a2def3144b3d1e32f0fd69c724f2d17615fcf5a9bfa5f01cc"
+      },
+      {
+        "name": "investor-outreach",
+        "hash": "e5d4918dcbc62eb25d42829b56683ae6befe3a623f7ce6ed66bef37ce1a57c65"
+      },
+      {
+        "name": "ios-icon-gen",
+        "hash": "893627c44e6d209f9b2e02de2f4879188649d22ae9723cd5b9445de6df3d6482"
+      },
+      {
+        "name": "iterative-retrieval",
+        "hash": "b453b16d3e36174b8487c05ab807d0321a66c2d058812b2ae129d82824183725"
+      },
+      {
+        "name": "ito-baskets",
+        "hash": "ef5e4353d1d90a75ad0b9c435d831c178187b4be407b9270e2d32b2bb64589bc"
+      },
+      {
+        "name": "ito-compute",
+        "hash": "2c3570b5beeec45b3eb5efd4e862363af74de3bf18ee5827fd6d3d47abd0bf92"
+      },
+      {
+        "name": "ito-inference",
+        "hash": "60d2094ff4e8eb43f4599eaf806331231525a7a6cc5fee609f1764a0f848cc7b"
+      },
+      {
+        "name": "ito-training",
+        "hash": "43ce5354855709d10d7171bae301157b0b88e6ac9a3775c9acd9599c0b7617d5"
+      },
+      {
+        "name": "java-coding-standards",
+        "hash": "c7088a434cd7efb4f3bb449bed2178cf683c1d71bc50f8ae5234a8880d3633f4"
+      },
+      {
+        "name": "jira-integration",
+        "hash": "ce0a0c815e3112a1e80d4dbd1d2d0c804c2af0371628d325e04d7ffbddf4247e"
+      },
+      {
+        "name": "jpa-patterns",
+        "hash": "bcdd45c5e435df259856b20aae47182209b0467b542eacfc7e32bcf452326839"
+      },
+      {
+        "name": "knowledge-ops",
+        "hash": "958529713af2ab29c7b31b3cb758953271174b8909c94f1238dd7c78671672c2"
+      },
+      {
+        "name": "kotlin-coroutines-flows",
+        "hash": "ed7d895ecd6c717fbdbf7f1469110df74a6337792acd1232c4ad7286abee76e4"
+      },
+      {
+        "name": "kotlin-exposed-patterns",
+        "hash": "dda4952840ddff31a9ea4ad7161dd75fbc13ff73ebf73d5ee9fa42fcce287167"
+      },
+      {
+        "name": "kotlin-ktor-patterns",
+        "hash": "f2fa0b135ad0f37ee7a79dd346d236758f25c60c525de451bba28678659a5261"
+      },
+      {
+        "name": "kotlin-patterns",
+        "hash": "e519234772a3697763ad484908d180c4c653439fea75a56c03440c272f9f0896"
+      },
+      {
+        "name": "kotlin-testing",
+        "hash": "13e39ad65e86e86c22fbdb6273bdc8d17d3784c221a8f08207a1e9e2e9c29a0a"
+      },
+      {
+        "name": "kubernetes-patterns",
+        "hash": "808b2ec032224e251f1bef9f6e9879e88e2e7abd0feb393632fb6042d8ac5ecc"
+      },
+      {
+        "name": "laravel-patterns",
+        "hash": "6fa9d96a7b944ef9775e2ecb93a56bc29d6219e34eb5af491792638fc5cb46b4"
+      },
+      {
+        "name": "laravel-plugin-discovery",
+        "hash": "6cf2b48ae39f26df7f8d17cf6480635b5203f6942a756a290efa27cf339169d3"
+      },
+      {
+        "name": "laravel-security",
+        "hash": "0440ddff450c63a9338f15b765ec35486f3f3266b321e0b27128faa3c29784fe"
+      },
+      {
+        "name": "laravel-tdd",
+        "hash": "505fa6c5caad022a5db0c359aebdcdcce1ad16e5863dc13ef862aec48cfa1628"
+      },
+      {
+        "name": "laravel-verification",
+        "hash": "577f592e4d570e8a6c4a0106acb8102063f67bea53c98eb6eae222191c038c35"
+      },
+      {
+        "name": "latency-critical-systems",
+        "hash": "5df315a5b5dd306a569ba8b3220f4eab80302c3d7f90128c290398b64bb76275"
+      },
+      {
+        "name": "lead-intelligence",
+        "hash": "1b24027c5ef0ebfb046990433905b80d8df63d93f83fff9fdef4f74ad883a5f2"
+      },
+      {
+        "name": "liquid-glass-design",
+        "hash": "6e424b8daba26c92a8283cd3e5b35c7b2bc78a0a9fc07821a5939027090b8e43"
+      },
+      {
+        "name": "living-docs-governance",
+        "hash": "e8c22a1f69743e256c6d6df138d99e49d22e29effbf008dfe2328b7fdc76247e"
+      },
+      {
+        "name": "llm-trading-agent-security",
+        "hash": "8a59b241f6ae86d8f96b88122643b4d27d70adb6c15b31f5163f9586cb81b293"
+      },
+      {
+        "name": "logistics-exception-management",
+        "hash": "66b91a1ea6af1f6f73a05fa125dcb44dc6de4ec00c4834b0bf597281bfb7964c"
+      },
+      {
+        "name": "loop-design-check",
+        "hash": "fc929d24cdbf2349deb56613d312f4731a911c2bf2d67c3834e9e45614aec658"
+      },
+      {
+        "name": "mailtrap-email-integration",
+        "hash": "917fe931b1ce8e796768d71686d4f90b37e413529593e5f7cf108c4c73b35ce4"
+      },
+      {
+        "name": "make-interfaces-feel-better",
+        "hash": "aff91aef917cba9c65681ae77197cee93ce9b697ee8916ea684ef8537c99fb52"
+      },
+      {
+        "name": "manim-video",
+        "hash": "bb890b019664a995ca2bf6c08add444a85099caf4c0085de50e9ad6f62d62d5f"
+      },
+      {
+        "name": "market-research",
+        "hash": "8cfc36dc8a93476d092115f3fc70c631dcab14fcd6e04371160fc4fb29547800"
+      },
+      {
+        "name": "marketing-campaign",
+        "hash": "f4d2501b1abb19f7ef5f73b21afa5a7ea51c5dc3d766e8dbd239ec548899213f"
+      },
+      {
+        "name": "mcp-server-patterns",
+        "hash": "eacb07c953e0440c758e3ee7d92984d2c9128e3444005ea7ad5da7bc0201d43d"
+      },
+      {
+        "name": "messages-ops",
+        "hash": "c2036d3ff01fd13258a2d8af88c04b94f68a10808c799be4e62b975874b263af"
+      },
+      {
+        "name": "ml-adoption-playbook",
+        "hash": "488f83a5c3766043e0ff98466f8d5534f69863d9adebda8b4d2903f00860e312"
+      },
+      {
+        "name": "mle-workflow",
+        "hash": "2497888dd543ca7bdf5d0cb4d90fce023eb2c1c14f860f0af8e8be42423131b4"
+      },
+      {
+        "name": "motion-advanced",
+        "hash": "1ee09b942bf328ffa97148bed838ecc8789c1891ca441abccdca52b4c47a9742"
+      },
+      {
+        "name": "motion-foundations",
+        "hash": "ac0dd6de088e8cf2bff57230b365469e893c5f3a9578815a7f113689d0401972"
+      },
+      {
+        "name": "motion-patterns",
+        "hash": "9d78bcd2c3b52abdb6fb29162f289b9c709547de264ad064b12e00bedb031907"
+      },
+      {
+        "name": "motion-ui",
+        "hash": "0c43aa186d64c5e094de946927581683e986fee496b744bc29433bbad3d169d2"
+      },
+      {
+        "name": "mysql-patterns",
+        "hash": "cab57c6a6d7e0bab99329945edda900811c40ec929b47aa95611f9df58f7391d"
+      },
+      {
+        "name": "nanoclaw-repl",
+        "hash": "459d8467dbd6fb475d49f75124c2c92fb2120cfde3418312b77c575ad723d649"
+      },
+      {
+        "name": "nasiko-control-plane",
+        "hash": "30cf6f536cb55faa49ac02b22eed0282af4a6a59ce20e087c667bb35ddf4c744"
+      },
+      {
+        "name": "nestjs-patterns",
+        "hash": "7f41406abaf10185d9a784e894108ded771a0177b1051e0b2c65d14f226bd581"
+      },
+      {
+        "name": "netmiko-ssh-automation",
+        "hash": "6dc91c80144c2ad86a5f457c5377dc5193fd0b64dd3e1ca4433f70188a38e104"
+      },
+      {
+        "name": "network-bgp-diagnostics",
+        "hash": "44a8d9ba4644f33cb86227e54641930a280fc4417ebce5c1744985b9f4913d03"
+      },
+      {
+        "name": "network-config-validation",
+        "hash": "08ba871a685d55e14e0866de27eb98a37ebf91dc2d0d06976c4acb4e99f76550"
+      },
+      {
+        "name": "network-interface-health",
+        "hash": "612cd44e1b80e10dd56f9a2296348cb48882fe24e2435654dae3b6447555e0a3"
+      },
+      {
+        "name": "nextjs-turbopack",
+        "hash": "44b68f7c74b237742bee4f39660f8a9160f755004cab0658594fdf494a42e681"
+      },
+      {
+        "name": "nodejs-keccak256",
+        "hash": "973c1194e28b51f56895617abcbcca82a37d25282e7603700a6bf284459bebdb"
+      },
+      {
+        "name": "nutrient-document-processing",
+        "hash": "2a8096af72efaeb29a4221929ac1f1ea9d97b95d44316720764fb7c191c7a5b9"
+      },
+      {
+        "name": "nuxt4-patterns",
+        "hash": "8f99946d5aa8e11dae8ba1ade746a6a803efcba63ba8b618dbf7748331c14e47"
+      },
+      {
+        "name": "openclaw-persona-forge",
+        "hash": "3498442cf72ee7efbc4cc56553b48dbbb1a26d1d95eca4037aede69e164a9875"
+      },
+      {
+        "name": "opensource-pipeline",
+        "hash": "7032623ed2108d638c1ce5afa7a0738d632551aea2adc9767385375782993a81"
+      },
+      {
+        "name": "orch-add-feature",
+        "hash": "6ba858d94cfaa05f3b1e63ad09656285a4a33009e9cd837ebcaf093d39d29a25"
+      },
+      {
+        "name": "orch-build-mvp",
+        "hash": "b54a9e1819611a2404c6783e743206760f5395faee582d030aa9c11ae9e84cbb"
+      },
+      {
+        "name": "orch-change-feature",
+        "hash": "d35ee5dfdf5f64e60e8905124eccf73267bc59852e7d11ba5ca5acf7d765c6f8"
+      },
+      {
+        "name": "orch-fix-defect",
+        "hash": "399e142bbf3751b5a0fdec1ae450f5673bd1a038304a221748c865280e885b2d"
+      },
+      {
+        "name": "orch-pipeline",
+        "hash": "a0e647de4f8486cc5d12cf470c1d8c468f7b44ca5e3dc26cd65e50f9012d9cb2"
+      },
+      {
+        "name": "orch-refine-code",
+        "hash": "5f0f468ffa4e220bd8f76684b3df6a14b67b34333e1ae52e0de49ed2c16fa17b"
+      },
+      {
+        "name": "parallel-execution-optimizer",
+        "hash": "b44def0f7c24ab2505bd2eee10ceb777d591724dbe32dfdf5220354385e1e3ab"
+      },
+      {
+        "name": "perl-patterns",
+        "hash": "617ced86628e866a6242ef763ec736d5f7ee3fa0a5afc34236d808db6de9c4b3"
+      },
+      {
+        "name": "perl-security",
+        "hash": "fd6dd778ed3b612dd8ee5f856d557b9328a1f92f87d5b69b91a53d58657531f6"
+      },
+      {
+        "name": "perl-testing",
+        "hash": "17723ed2249fa98d4ee7affc53bb479898725eb1a7466d46871bf215317fb79e"
+      },
+      {
+        "name": "plan-canvas",
+        "hash": "e1167d890b697567858f47e3963c6cc0ab74307572b1df9e11e9c7a33c11c1d1"
+      },
+      {
+        "name": "plan-orchestrate",
+        "hash": "d104fb71594fd9385c4a7c23e4835907be124b8effb34f49fa5cf7d28e3494e3"
+      },
+      {
+        "name": "plankton-code-quality",
+        "hash": "22c6818a532d47b1499fcb40a23749491d5b611c5d56e76b0ed09ba7a67ab57f"
+      },
+      {
+        "name": "postgres-patterns",
+        "hash": "9c8c391ae9e9aa87faa7ca091e1d395c97766df14080d0bfbea8a97721776163"
+      },
+      {
+        "name": "prediction-market-oracle-research",
+        "hash": "63f91f6e71839efc4b10be347fa160e402b9b72307f0a7e6ac0a50bd4b9fd8cb"
+      },
+      {
+        "name": "prediction-market-risk-review",
+        "hash": "19195e218716ed298fd8de9743e78462d17d95233b14e052c3bd1d1d7df31f91"
+      },
+      {
+        "name": "prisma-patterns",
+        "hash": "fb0c7644f32b22ee030071c71fa00bda1825f955f7304a375ef299a7290227f2"
+      },
+      {
+        "name": "product-capability",
+        "hash": "c26114356edb15f0340e5af66b6f4444892bdf376b053a7152312fd04d22aced"
+      },
+      {
+        "name": "product-lens",
+        "hash": "d082be7c3dd9fed8523ce757a6e2b823a53003d57d2488ead5cec5d5e0a4270f"
+      },
+      {
+        "name": "production-audit",
+        "hash": "3ab3dd8a364ee17566e9361f0ebed2aec3b3146ede44e1db0a72c5ceae1ca0a4"
+      },
+      {
+        "name": "production-scheduling",
+        "hash": "1191c7dc9cf2ed78197cff039e67ec0a08b6118951de1c4fee947cb5e2ac5792"
+      },
+      {
+        "name": "project-flow-ops",
+        "hash": "6d59e4118a91419fdc66cf51925371a3f9fad66881c5a1720ed1c5cc490df1f7"
+      },
+      {
+        "name": "prompt-optimizer",
+        "hash": "0a86553a2860d263e3e5cbe5ab42e88971ead105e0bbdcd1613ba2f97d826ef9"
+      },
+      {
+        "name": "python-patterns",
+        "hash": "103e0130dac33a49d26705fc5a2df804980fcab6a0138d65bc7f370a987d49f6"
+      },
+      {
+        "name": "python-testing",
+        "hash": "b9f7a158dae3b6c06c9c75ffe84e27a1edc86092d2afdcb39e96fc2569902eb7"
+      },
+      {
+        "name": "pytorch-patterns",
+        "hash": "168c8740f548414a75f576265ddb03329be98ed57f06c5edaf79c7cd4b6a9cf4"
+      },
+      {
+        "name": "quality-nonconformance",
+        "hash": "ac4e11fc75258853091c020471ccceca62d3153a956bba23c29b9adee2f2f6a3"
+      },
+      {
+        "name": "quarkus-patterns",
+        "hash": "5f91bed186170a23837452508fc731ec4cada0a337ae95b1327f80311fa6ab6b"
+      },
+      {
+        "name": "quarkus-security",
+        "hash": "61e25b00d47d64f0685219988c2605c95a87146bfe0bbb52f1a28d877456d07f"
+      },
+      {
+        "name": "quarkus-tdd",
+        "hash": "556d1c2d04e3e0ef10f474ed413013646088ff057f9be02d3a3c4f833ccc33c5"
+      },
+      {
+        "name": "quarkus-verification",
+        "hash": "567633c745c497a8b8f5489d806244772d0c20289b9ff8e26e790f8e6398ff5c"
+      },
+      {
+        "name": "ralphinho-rfc-pipeline",
+        "hash": "44e25676d06f83540c0e1c58bc0be98f906d8523703943093520101bfd47cee8"
+      },
+      {
+        "name": "react-native-patterns",
+        "hash": "caf04da7ea1f20213b010f24dc19a8a20f1939c928156caa2f0482f26c31b12b"
+      },
+      {
+        "name": "react-patterns",
+        "hash": "f3208d44a5d553038c42e046cec4dc16e4a3d90a9dbf931f883a2e21919a64a9"
+      },
+      {
+        "name": "react-performance",
+        "hash": "ac76e8694d4f802a7bccc3c07a73ac68ace6d82a65ea10f10d8b7384dda61a8f"
+      },
+      {
+        "name": "react-testing",
+        "hash": "51c18b4e28285bb876ef469e47c6f53108b5a9f900950a60e897c3c24826a65e"
+      },
+      {
+        "name": "recsys-pipeline-architect",
+        "hash": "309fe65f0ffdb44b62005c63ab9f460ddbe813f994e010316f7a2e55fc52e436"
+      },
+      {
+        "name": "recursive-decision-ledger",
+        "hash": "2a7af89f104edb01f33406ba7e7f2d7eb9cd9efb0bd0c8404be0c91947f9325e"
+      },
+      {
+        "name": "redis-patterns",
+        "hash": "6cabb1cd03174a0584ff3538371c780aba90da156db15260691278ed3307d8fe"
+      },
+      {
+        "name": "regex-vs-llm-structured-text",
+        "hash": "35ba82a9b1b7253fd84b6873c4350b974528c744ffd825544f2a4f8ccbef6d44"
+      },
+      {
+        "name": "remotion-video-creation",
+        "hash": "dd727cadc4c1e179932b9736955ff3e537f75eeb759c038345ad9fe7d1bc55a9"
+      },
+      {
+        "name": "repo-scan",
+        "hash": "b3318f6263629467d895d71a281cb64575d9d5de12c96d97cd1d19c66734e98e"
+      },
+      {
+        "name": "research-ops",
+        "hash": "114d0e5480ce3ad263316c639ce0c401396e1d9fbec3cf15b3c962ae16f376db"
+      },
+      {
+        "name": "returns-reverse-logistics",
+        "hash": "f1e3189fdec11570544f859cb084981ca6b2dfc0ba47764c2bd5e6c3782f2a60"
+      },
+      {
+        "name": "rules-distill",
+        "hash": "c451a63f96077f92ef6b40c4310f5a470a5d05103a181af518b115c4e828292c"
+      },
+      {
+        "name": "rust-patterns",
+        "hash": "51379df2bd92a482309e109e5a210210842594f660cceeb2d68d18e995108edf"
+      },
+      {
+        "name": "rust-testing",
+        "hash": "02a9a40dcc42dd21d14730d29b13ee0a8b274694360585dc0fadb2602eb56ddf"
+      },
+      {
+        "name": "safety-guard",
+        "hash": "9247b4a05dde847b93d28997477fd3be53dfed967a6279f5d0fc9fab104528ee"
+      },
+      {
+        "name": "santa-method",
+        "hash": "190176ee80a72c1642f255a4dfdeb3bb12799212d5c04b05c9be914764749f6b"
+      },
+      {
+        "name": "scientific-db-pubmed-database",
+        "hash": "516c24ed8c74713191ec2424accf11f8f5518356b046561e5017f40687289838"
+      },
+      {
+        "name": "scientific-db-uspto-database",
+        "hash": "96849e8dc762df699fea11a283e9424660dd3b606e7e513617e4e9a9ce2011be"
+      },
+      {
+        "name": "scientific-pkg-gget",
+        "hash": "8338ad65c24cd95a622cd9ffb947cb54478645ed0713519b49174a96439ec9fe"
+      },
+      {
+        "name": "scientific-thinking-literature-review",
+        "hash": "456e7ef6b33300bfefeeee46fc8dae55fec62e4a8b418ba2323e12779de70195"
+      },
+      {
+        "name": "scientific-thinking-scholar-evaluation",
+        "hash": "e9f8a3bce2bce769a96611a52804a2b3955f2796ee2749bc8275aea38a26cd2d"
+      },
+      {
+        "name": "search-first",
+        "hash": "d66d744228b9cf860acf35f8a90cbbe8195e61367860da9d3632f9fc65706733"
+      },
+      {
+        "name": "security-bounty-hunter",
+        "hash": "c94945165ca16ec06a04727dcbcf7a7593810d83fe168247c9c2d88c5a078611"
+      },
+      {
+        "name": "security-review",
+        "hash": "fe6f9151fb15c1dffd47a55080c3ad147af7c95dd0ad3714735dec6824b060b7"
+      },
+      {
+        "name": "security-scan",
+        "hash": "74bc3006fb15eef9cea6bf70a4e9cc45ec118ef00733d1c8226c9dc428f8d658"
+      },
+      {
+        "name": "seo",
+        "hash": "4b744d2ff5c9313e903e4e5139322cc98adb9f9778a7231d4826216ab0f6873a"
+      },
+      {
+        "name": "skill-comply",
+        "hash": "e26cbbc30a32ea8c76c56d09ba9a3a921e82ad6e2360f825ec63d3f8df6b1f5a"
+      },
+      {
+        "name": "skill-scout",
+        "hash": "71b1e8a4aedebeaf4468838389c0a93e4d3bf4e2779bd0a99e0396b045f82d32"
+      },
+      {
+        "name": "skill-stocktake",
+        "hash": "aa8f287c48c5a33bf15094358ffccbe0d4faff9eee9fa2ffcd70c8e9f3d22cdd"
+      },
+      {
+        "name": "social-graph-ranker",
+        "hash": "24657648f76eb7b835fa71275980e704ebf798853565856623c1e3cd4fd7a183"
+      },
+      {
+        "name": "social-publisher",
+        "hash": "c2fde5ac9d953cb649ce69331ca49be1df854d051ebc31eb54423c5d262337f6"
+      },
+      {
+        "name": "springboot-patterns",
+        "hash": "ff1884a8492d078d1bbb35f3ce0a8ae25f1ad95dab8596f4944a7c3110680946"
+      },
+      {
+        "name": "springboot-security",
+        "hash": "566ecf928bf76812d15efd62e2f00841652e1618f0a97d8dda93e1c247a162c5"
+      },
+      {
+        "name": "springboot-tdd",
+        "hash": "e4bd145484d93fb569eb0e1a09ffeb5cca68533d63c83805146b111c48bba172"
+      },
+      {
+        "name": "springboot-verification",
+        "hash": "6797bb91f5b122f84a8490099d997d7339cf8c65f66b15049a9cfa6e8ce213d0"
+      },
+      {
+        "name": "strategic-compact",
+        "hash": "44a71c6dcc3fdde8061b8a78296c5d37233e4accc8cf3c794e29ac5b9f2eee28"
+      },
+      {
+        "name": "swift-actor-persistence",
+        "hash": "438f75a3f37db2b8db699fb5d27a7207d0f31eace31d057b775ad152d6462c5c"
+      },
+      {
+        "name": "swift-concurrency-6-2",
+        "hash": "00aed6a804ff7dc9b37d119cdb115d0869643dd84caf3c01d7f058398ab1955a"
+      },
+      {
+        "name": "swift-protocol-di-testing",
+        "hash": "1e0b9fddf0a731956cdc686fb55dfa1862a5f172a5140299f4ec9d95c7a5e6e9"
+      },
+      {
+        "name": "swiftui-patterns",
+        "hash": "79e3c8b5b7c38fa04778b1084cddc2f8db5f671e682b0e9c1d5bd2f95800f690"
+      },
+      {
+        "name": "taste",
+        "hash": "0b8683366ab51d4d45882710c9086ca43123eae25484838c7c290bdd4568bb32"
+      },
+      {
+        "name": "tasteforge-video",
+        "hash": "f1610b6385e6fd505252488f91d8e1b7e822830e1ebb61e4c3e50c416a655986"
+      },
+      {
+        "name": "tdd-workflow",
+        "hash": "e3a0051a99e82f7047b29a2a98c662d8ef8d0ede186acc085436fced7f2591b7"
+      },
+      {
+        "name": "team-agent-orchestration",
+        "hash": "4fc52cb4eaba14f8a08ede50423a8be9198175e6c9b5dbbdfb3d00aa81c75055"
+      },
+      {
+        "name": "team-builder",
+        "hash": "87d2f35b976616f505684db89a6f93ebba3c47020ce2b23d893e2eaf45ca009a"
+      },
+      {
+        "name": "terminal-opener",
+        "hash": "679b8aca9af3f47450d437fed7a71ac9c1272b6196224ddad8fead218f5f16ab"
+      },
+      {
+        "name": "terminal-ops",
+        "hash": "f26e518e6922fe0796f5b6a55349a409f5b03745c4eeed9be80b4c66d890d852"
+      },
+      {
+        "name": "tinystruct-patterns",
+        "hash": "6f5d16090aa5b1913002480ecfb00feb3ad894a05c9b84d8f3645e2297b6024b"
+      },
+      {
+        "name": "token-budget-advisor",
+        "hash": "d092defef257ce470bf364c55a2f2a51cdb37655779a66f1993cbd4295317d03"
+      },
+      {
+        "name": "ui-demo",
+        "hash": "893eee77f98f52d28bffa6bbababa7481300cc13535dea519fa0cc1b0168b2f8"
+      },
+      {
+        "name": "ui-to-vue",
+        "hash": "cb6c17f7ae28a53b31fb2904180521ccdaa31ad0deafa96c6b4f5b2f4bfea480"
+      },
+      {
+        "name": "uncloud",
+        "hash": "cc2383ca4459a686ccda87ac08b2a1953028d91076e6a83f29e4c99de5f2fb7f"
+      },
+      {
+        "name": "unified-memory",
+        "hash": "a6eb9a96b92dfd4a700bceff15195ca1fd4b7fad2944bb014c08812d1a0dc8b0"
+      },
+      {
+        "name": "unified-notifications-ops",
+        "hash": "0ade130619dfc73781d6a4beaf79b65b6d3ac70f0751dce0844a8f9fd39167aa"
+      },
+      {
+        "name": "verification-loop",
+        "hash": "f0d56107f79e607d4de6c5543b8edfb1b58ab9ae4019b39831689cd91116543e"
+      },
+      {
+        "name": "video-editing",
+        "hash": "828d210fa227d83dfdc234f89e39b0b2a5ce4883494e3a5049acea754b0986cc"
+      },
+      {
+        "name": "videodb",
+        "hash": "1d252c32d309be70786e5b97e40423ec654c6ec1e61180499449b4b52e624798"
+      },
+      {
+        "name": "visa-doc-translate",
+        "hash": "56699405b7ed8ae0641c5e823ce29010d454915e9128c45471b27b91df26a4f9"
+      },
+      {
+        "name": "vite-patterns",
+        "hash": "2238d353196b6732ba897e32f1872078fde7a9d11f5aca43b53da8bfc7e3917d"
+      },
+      {
+        "name": "vue-patterns",
+        "hash": "65e322383510de25bd5fc6fce4b0980d99d38b341f09bea662bd9a410e20c016"
+      },
+      {
+        "name": "windows-desktop-e2e",
+        "hash": "cbc93a1e2514ecdcee30da744aa13eb6c0ebe4948ca3dfff52b287df4f9f0814"
+      },
+      {
+        "name": "workspace-surface-audit",
+        "hash": "ca6eadae6bd303713da56344bedbd8b246fe07bde1d20a26c9f21844d919cd6f"
+      },
+      {
+        "name": "x-api",
+        "hash": "997937ac9dc11779c6bb6c16833630836a22f1b2f115482982f6350474fa8ff1"
+      }
+    ]
+  },
+  "generatedBy": "dsh/scripts/update-manifest.mjs"
 }

@@ -19,8 +19,10 @@
   ],
   "scripts": {
     "build": "node ./scripts/sync-skills.mjs",
+    "manifest": "node ./scripts/update-manifest.mjs",
+    "check-upstream": "node ./scripts/check-upstream.mjs",
     "verify": "node ./scripts/verify.mjs",
-    "test": "npm run build && npm run verify && node ../tests/dsh/bundle-entry.test.js && node ../tests/dsh/provider.test.mjs",
+    "test": "npm run build && npm run verify && node ../tests/dsh/bundle-entry.test.js && node ../tests/dsh/provider.test.mjs && node ../tests/dsh/upstream.test.mjs",
     "prepack": "npm run build && npm run verify"
   },
   "keywords": [

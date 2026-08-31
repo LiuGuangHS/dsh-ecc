@@ -52,7 +52,7 @@ Counts are checked from the repository during planning and must be regenerated w
 | --- | --- | ---: | --- | --- | --- |
 | 0 | Inventory and contracts | 380+ items | This matrix plus manifests | Every applicable item has destination, state, risk and test tier | no release |
 | 1 | Skill runtime hardening | 286 | Provider, resource locator and lifecycle | list/get/error/teardown/install tests pass; package allowlist passes | `0.1.1` onward |
-| 2 | Maintenance and source tracking | all adapted items | Manifest and read-only drift checker | upstream commit, changes and blocked network state are visible | patch releases |
+| 2 | Maintenance and source tracking | all adapted items | Manifest and read-only drift checker | deterministic Skill snapshot, upstream commit when known, changes and blocked network state are visible | patch releases |
 | 3 | Safe inspection workflows | 10-20 Commands | DSH commands/tools | `verify`, `review`, `plan`, `tdd` have validated contracts and Harness tests | patch releases |
 | 4 | Command families | remaining applicable Commands | DSH commands/workflows | every Command is verified or has a documented replacement | patch releases, then minor when stable |
 | 5 | Core engineering agents | 7-10 Agents | Agent presets/subagents | planner, reviewer, tester and security roles have scoped tools and handoffs | patch releases |

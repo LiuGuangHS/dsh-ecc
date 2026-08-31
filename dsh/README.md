@@ -18,9 +18,30 @@ For development from this repository:
 ```sh
 cd dsh
 npm run build
+npm run manifest
 npm run verify
 dsh plugin --profile web add "$PWD"
 ```
+
+## Maintenance
+
+The package records a deterministic SHA-256 snapshot of the exported Skills in
+[`upstream.json`](upstream.json). Refresh it after deliberately reviewing a new
+ECC source snapshot:
+
+```sh
+cd dsh
+npm run manifest
+npm test
+npm run check-upstream
+```
+
+`check-upstream` is read-only. It returns `0` when no Skill changes are found,
+`2` when upstream drift is found, and `3` when the remote check is blocked by a
+missing pinned commit, invalid ref, network, API or timeout error. The initial
+manifest intentionally has no pinned upstream commit until a maintainer reviews
+which ECC commit corresponds to the generated export. A drift report never
+updates generated Skills or publishes a release automatically.
 
 ## Scope
 
