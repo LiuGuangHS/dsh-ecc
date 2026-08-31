@@ -1,0 +1,50 @@
+{
+  "name": "@liuguanghs/dsh-ecc",
+  "version": "0.1.0",
+  "description": "Everything Claude Code for DeepSeek Harness: native, on-demand ECC skills packaged as a Cordis bundle.",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node ./scripts/sync-skills.mjs",
+    "verify": "node ./scripts/verify.mjs",
+    "prepack": "npm run build && npm run verify"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "ecc",
+    "everything-claude-code",
+    "skills",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuGuangHS/dsh-ecc.git",
+    "directory": "dsh"
+  },
+  "homepage": "https://github.com/LiuGuangHS/dsh-ecc#deepseek-harness",
+  "bugs": {
+    "url": "https://github.com/LiuGuangHS/dsh-ecc/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

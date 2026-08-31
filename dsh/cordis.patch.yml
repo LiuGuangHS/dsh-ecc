@@ -1,0 +1,6 @@
+# DSH Bundle patch
+# Mount the package entry as a host-layer Skill provider. The provider reads the
+# package's generated `skills/` directory and loads bodies on demand.
+- insert:
+    - id: dsh-ecc
+      name: '@liuguanghs/dsh-ecc'
